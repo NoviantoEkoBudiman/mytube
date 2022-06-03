@@ -42,7 +42,6 @@
       <i class="fas fa-times p-3 cursor-pointer text-white opacity-5 position-absolute end-0 top-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
       <a class="navbar-brand m-0" href=" https://demos.creative-tim.com/material-dashboard/pages/dashboard " target="_blank">
         <img src="{{ asset('pict/mytube.png') }}" width="200px" alt="main_logo">
-        {{-- <span class="ms-1 font-weight-bold text-white">Material Dashboard 2</span> --}}
       </a>
     </div>
     <hr class="horizontal light mt-0 mb-2">
@@ -124,10 +123,10 @@
         <div class="col-lg-4 col-md-6 mt-4 mb-4">
           <div class="card z-index-2 ">
             <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2 bg-transparent">
-                <iframe class="border-radius-lg" width="300px" height="175px" src="{{ asset('upload/Enterprise is best shipfu.mp4') }}"></iframe> 
+                <iframe style="border-radius: 15px;" width="300px" height="175px" src="{{ asset('upload/video.mp4') }}"></iframe> 
             </div>
             <div class="card-body">
-              <h6 class="mb-0 ">Enterprise is best shipfu</h6>
+              <h6 class="mb-0 ">Judul Video</h6>
               <div class="d-flex ">
                 <i class="material-icons text-sm my-auto me-1">schedule</i>
                 <p class="mb-0 text-sm">Diupload pada 17-Agustus-1945 </p>
@@ -138,10 +137,10 @@
         <div class="col-lg-4 col-md-6 mt-4 mb-4">
           <div class="card z-index-2 ">
             <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2 bg-transparent">
-                <iframe class="border-radius-lg" width="300px" height="175px" src="{{ asset('upload/Enterprise is best shipfu.mp4') }}"></iframe> 
+                <iframe style="border-radius: 15px;" width="300px" height="175px" src="{{ asset('upload/video.mp4') }}"></iframe> 
             </div>
             <div class="card-body">
-              <h6 class="mb-0 ">Enterprise is best shipfu</h6>
+              <h6 class="mb-0 ">Judul Video</h6>
               <div class="d-flex ">
                 <i class="material-icons text-sm my-auto me-1">schedule</i>
                 <p class="mb-0 text-sm">Diupload pada 17-Agustus-1945 </p>
@@ -152,10 +151,10 @@
         <div class="col-lg-4 col-md-6 mt-4 mb-4">
             <div class="card z-index-2 ">
               <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2 bg-transparent">
-                  <iframe class="border-radius-lg" width="300px" height="175px" src="{{ asset('upload/Enterprise is best shipfu.mp4') }}"></iframe> 
+                  <iframe style="border-radius: 15px;" width="300px" height="175px" src="{{ asset('upload/video.mp4') }}"></iframe> 
               </div>
               <div class="card-body">
-                <h6 class="mb-0 ">Enterprise is best shipfu</h6>
+                <h6 class="mb-0 ">Judul Video</h6>
                 <div class="d-flex ">
                   <i class="material-icons text-sm my-auto me-1">schedule</i>
                   <p class="mb-0 text-sm">Diupload pada 17-Agustus-1945 </p>
@@ -170,10 +169,10 @@
         <div class="col-lg-4 col-md-6 mt-4 mb-4">
           <div class="card z-index-2 ">
             <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2 bg-transparent">
-                <iframe class="border-radius-lg" width="300px" height="175px" src="{{ asset('upload/Enterprise is best shipfu.mp4') }}"></iframe> 
+                <iframe style="border-radius: 15px;" width="300px" height="175px" src="{{ asset('upload/video.mp4') }}"></iframe> 
             </div>
             <div class="card-body">
-              <h6 class="mb-0 ">Enterprise is best shipfu</h6>
+              <h6 class="mb-0 ">Judul Video</h6>
               <div class="d-flex ">
                 <i class="material-icons text-sm my-auto me-1">schedule</i>
                 <p class="mb-0 text-sm">Diupload pada 17-Agustus-1945 </p>
@@ -184,10 +183,10 @@
         <div class="col-lg-4 col-md-6 mt-4 mb-4">
           <div class="card z-index-2 ">
             <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2 bg-transparent">
-                <iframe class="border-radius-lg" width="300px" height="175px" src="{{ asset('upload/Enterprise is best shipfu.mp4') }}"></iframe> 
+                <iframe style="border-radius: 15px;" width="300px" height="175px" src="{{ asset('upload/video.mp4') }}"></iframe> 
             </div>
             <div class="card-body">
-              <h6 class="mb-0 ">Enterprise is best shipfu</h6>
+              <h6 class="mb-0 ">Judul Video</h6>
               <div class="d-flex ">
                 <i class="material-icons text-sm my-auto me-1">schedule</i>
                 <p class="mb-0 text-sm">Diupload pada 17-Agustus-1945 </p>
@@ -198,10 +197,10 @@
         <div class="col-lg-4 col-md-6 mt-4 mb-4">
             <div class="card z-index-2 ">
               <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2 bg-transparent">
-                  <iframe class="border-radius-lg" width="300px" height="175px" src="{{ asset('upload/Enterprise is best shipfu.mp4') }}"></iframe> 
+                  <iframe style="border-radius: 15px;" width="300px" height="175px" src="{{ asset('upload/video.mp4') }}"></iframe> 
               </div>
               <div class="card-body">
-                <h6 class="mb-0 ">Enterprise is best shipfu</h6>
+                <h6 class="mb-0 ">Judul Video</h6>
                 <div class="d-flex ">
                   <i class="material-icons text-sm my-auto me-1">schedule</i>
                   <p class="mb-0 text-sm">Diupload pada 17-Agustus-1945 </p>
@@ -209,6 +208,98 @@
               </div>
             </div>
           </div>
+      </div>
+      <h3>Video Subscription</h3>
+    <hr>
+    <div class="row mt-4">
+      <div class="col-lg-4 col-md-6 mt-4 mb-4">
+        <div class="card z-index-2 ">
+          <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2 bg-transparent">
+              <iframe style="border-radius: 15px;" width="300px" height="175px" src="{{ asset('upload/video.mp4') }}"></iframe> 
+          </div>
+          <div class="card-body">
+            <h6 class="mb-0 ">Judul Video</h6>
+            <div class="d-flex ">
+              <i class="material-icons text-sm my-auto me-1">schedule</i>
+              <p class="mb-0 text-sm">Diupload pada 17-Agustus-1945 </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 mt-4 mb-4">
+        <div class="card z-index-2 ">
+          <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2 bg-transparent">
+              <iframe style="border-radius: 15px;" width="300px" height="175px" src="{{ asset('upload/video.mp4') }}"></iframe> 
+          </div>
+          <div class="card-body">
+            <h6 class="mb-0 ">Judul Video</h6>
+            <div class="d-flex ">
+              <i class="material-icons text-sm my-auto me-1">schedule</i>
+              <p class="mb-0 text-sm">Diupload pada 17-Agustus-1945 </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 mt-4 mb-4">
+          <div class="card z-index-2 ">
+            <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2 bg-transparent">
+                <iframe style="border-radius: 15px;" width="300px" height="175px" src="{{ asset('upload/video.mp4') }}"></iframe> 
+            </div>
+            <div class="card-body">
+              <h6 class="mb-0 ">Judul Video</h6>
+              <div class="d-flex ">
+                <i class="material-icons text-sm my-auto me-1">schedule</i>
+                <p class="mb-0 text-sm">Diupload pada 17-Agustus-1945 </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h3>Video Koleksi</h3>
+    <hr>
+    <div class="row mt-4">
+      <div class="col-lg-4 col-md-6 mt-4 mb-4">
+        <div class="card z-index-2 ">
+          <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2 bg-transparent">
+              <iframe style="border-radius: 15px;" width="300px" height="175px" src="{{ asset('upload/video.mp4') }}"></iframe> 
+          </div>
+          <div class="card-body">
+            <h6 class="mb-0 ">Judul Video</h6>
+            <div class="d-flex ">
+              <i class="material-icons text-sm my-auto me-1">schedule</i>
+              <p class="mb-0 text-sm">Diupload pada 17-Agustus-1945 </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 mt-4 mb-4">
+        <div class="card z-index-2 ">
+          <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2 bg-transparent">
+              <iframe style="border-radius: 15px;" width="300px" height="175px" src="{{ asset('upload/video.mp4') }}"></iframe> 
+          </div>
+          <div class="card-body">
+            <h6 class="mb-0 ">Judul Video</h6>
+            <div class="d-flex ">
+              <i class="material-icons text-sm my-auto me-1">schedule</i>
+              <p class="mb-0 text-sm">Diupload pada 17-Agustus-1945 </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 mt-4 mb-4">
+          <div class="card z-index-2 ">
+            <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2 bg-transparent">
+                <iframe style="border-radius: 15px;" width="300px" height="175px" src="{{ asset('upload/video.mp4') }}"></iframe> 
+            </div>
+            <div class="card-body">
+              <h6 class="mb-0 ">Judul Video</h6>
+              <div class="d-flex ">
+                <i class="material-icons text-sm my-auto me-1">schedule</i>
+                <p class="mb-0 text-sm">Diupload pada 17-Agustus-1945 </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <footer class="footer py-4  ">
         <div class="container-fluid">
@@ -222,22 +313,6 @@
                 <a href="https://www.creative-tim.com" class="font-weight-bold" target="_blank">Creative Tim</a>
                 for a better web.
               </div>
-            </div>
-            <div class="col-lg-6">
-              <ul class="nav nav-footer justify-content-center justify-content-lg-end">
-                <li class="nav-item">
-                  <a href="https://www.creative-tim.com" class="nav-link text-muted" target="_blank">Creative Tim</a>
-                </li>
-                <li class="nav-item">
-                  <a href="https://www.creative-tim.com/presentation" class="nav-link text-muted" target="_blank">About Us</a>
-                </li>
-                <li class="nav-item">
-                  <a href="https://www.creative-tim.com/blog" class="nav-link text-muted" target="_blank">Blog</a>
-                </li>
-                <li class="nav-item">
-                  <a href="https://www.creative-tim.com/license" class="nav-link pe-0 text-muted" target="_blank">License</a>
-                </li>
-              </ul>
             </div>
           </div>
         </div>
