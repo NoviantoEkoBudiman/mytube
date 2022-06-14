@@ -71,6 +71,16 @@
             <span class="nav-link-text ms-1">Koleksi</span>
           </a>
         </li>
+        @if (Auth::user()->user_type == 0)
+          <li class="nav-item">
+            <a class="nav-link text-white " href="../pages/billing.html">
+              <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+                <i class="material-icons opacity-10">receipt_long</i>
+              </div>
+              <span class="nav-link-text ms-1">Halaman Admin</span>
+            </a>
+          </li>            
+        @endif
       </ul>
     </div>
   </aside>
@@ -90,7 +100,7 @@
               <li class="nav-item d-flex align-items-center">
                 <a href="{{ route('login') }}" class="nav-link text-body font-weight-bold px-0">
                   <i class="fa fa-user me-sm-1"></i>
-                  <span class="d-sm-inline d-none">Sign In</span>
+                  <span class="d-sm-inline d-none">{{ (Auth::user()) ? Auth::user()->user_name  : 'Sign In'}}</span>
                 </a>
               </li>
             @endif
