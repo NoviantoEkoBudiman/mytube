@@ -71,15 +71,17 @@
             <span class="nav-link-text ms-1">Koleksi</span>
           </a>
         </li>
-        @if (Auth::user()->user_type == 0)
-          <li class="nav-item">
-            <a class="nav-link text-white " href="../pages/billing.html">
-              <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
-                <i class="material-icons opacity-10">receipt_long</i>
-              </div>
-              <span class="nav-link-text ms-1">Halaman Admin</span>
-            </a>
-          </li>            
+        @if(Auth::user())
+          @if (Auth::user()->user_type == 0)
+            <li class="nav-item">
+              <a class="nav-link text-white " href="{{ route('admin.index') }}">
+                <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+                  <i class="material-icons opacity-10">receipt_long</i>
+                </div>
+                <span class="nav-link-text ms-1">Halaman Admin</span>
+              </a>
+            </li>
+          @endif
         @endif
       </ul>
     </div>
