@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\ChannelController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,3 +23,4 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::resource('admin',AdminController::class);
+Route::resource('channel',ChannelController::class);

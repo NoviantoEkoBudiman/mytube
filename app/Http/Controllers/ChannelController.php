@@ -3,8 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Channel;
+use Illuminate\Support\Facades\Auth;
 
-class AdminController extends Controller
+class ChannelController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,8 +15,8 @@ class AdminController extends Controller
      */
     public function index()
     {
-        $data['page'] = 'dashboard';
-        return view('admin.index',$data);
+        $data['page'] = 'channel';
+        return view('admin.channel',$data);
     }
 
     /**
@@ -35,7 +37,17 @@ class AdminController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $validated = $request->validate([
+            'channel_name' => 'required',
+            'channel_description' => 'required',
+        ]);
+        
+        $data = new Channel;
+        $data->channel_user_id      = Auth::user()->user_id;
+        $data->channel_name         = $request->channel_name;
+        $data->channel_description  = $request->channel_description;
+        $data->save();
+        return redirect(route('channel.index'));
     }
 
     /**
